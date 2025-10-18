@@ -1,17 +1,13 @@
 # ========================================
 # Step 1 – Load Raisin Dataset from the Web
-# ========================================
-# All comments are in English.
+
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 from pathlib import Path
 
-# --- Direct URL from the UCI Machine Learning Repository ---
-# Get the current script's directory (folder2)
 base_dir = Path(__file__).parent
 
-# Go one level up to folder1
 parent_dir = base_dir.parent
 
 url = parent_dir / "Raisin_Dataset.xlsx"
