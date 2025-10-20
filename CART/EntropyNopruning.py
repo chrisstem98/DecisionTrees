@@ -9,7 +9,7 @@ from sklearn.tree import DecisionTreeClassifier
 # ---------- Load the dataset ----------
 base_dir = Path(__file__).parent         
 parent_dir = base_dir.parent   
-parent_dir = parent_dir.parent 
+parent_dir = parent_dir.parent         
 file_path = parent_dir / "Raisin_Dataset.xlsx"
 
 data = pd.read_excel(file_path)
